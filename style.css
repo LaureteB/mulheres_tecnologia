@@ -1,8 +1,18 @@
-body { 
+.open-sans-<uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+body {
     background-color: ;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: black;
     color: whitesmoke;
     padding-top: 30px;
@@ -16,33 +26,28 @@ body {
 }
 
 #titulo {
-
+    background-color: azure;
+    color: black;
 }
 
-p {
-    
-}
+p {}
 
-.imgcentro {
+.imgcentro {}
 
-}
+nav {}
 
-nav{
-
-}
-
-li{
+li {
     display: inline-block;
-   
+
 
 }
 
-li a{
+li a {
     font-size: 50px;
 
 }
 
-button{
+button {
     font-size: 16px;
     color: rgb(255, 0, 132);
 
