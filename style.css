@@ -58,7 +58,7 @@ li {
 
 li a {
     font-size: 25px;
-    color: #d30c6f;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -72,8 +72,8 @@ button {
     margin: 0;
     margin-top: -3px;
     color: #fff;
-    background-color: #0cd337;
-    border-color: #04324c;
+    background-color: #ffcfe7;
+    border-color: #ff00dd;
     width: 10%;
     clear: both;
     margin: 10px 0px;
