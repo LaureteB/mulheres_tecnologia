@@ -76,9 +76,6 @@ button {
     border-color: #ff00dd;
     width: 10%;
     clear: both;
-    margin: 10px 0px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 @media(max-width:768px){
