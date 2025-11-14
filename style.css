@@ -59,10 +59,11 @@ li {
 li a {
     font-size: 25px;
     color: #0cd337;
+    text-decoration: none;
 }
 
 nav a:hover{
-    color: rgb(4, 216, 50);
+    color: rgb(121, 0, 56);
     text-decoration: none;
 }
 
