@@ -69,7 +69,10 @@ button {
     border-bottom: 3px solid;
     font-size: 1.2em;
     cursor: pointer;
-    display: inline-block; margin-right: 170px;
+    margin: 10;
+    margin-top: 15px;
+    display: inline-block; 
+    margin-right: 200px;
     color: #fff;
     background-color: #ffcfe7;
     border-color: #ff00dd;
