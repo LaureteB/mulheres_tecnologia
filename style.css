@@ -48,7 +48,7 @@ body {
     border-radius: 50%;  /* Transforma o elemento em um círculo/oval */
     object-fit: cover;  /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
     border: 3px solid #ffd4fd;  /* Borda opcional */
-    display: inline-block; margin-right: 100px; /* Alinha os itens (imagens) lado a lado */
+    display: inline-block; margin-right: 300px; /* Alinha os itens (imagens) lado a lado */
     gap: 30px; /* Adiciona um espaço entre as imagens */
 }
 
