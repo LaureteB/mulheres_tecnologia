@@ -89,19 +89,7 @@ button a {
 }
 
 li{
-    padding: .5em 2em;
-    border: 0;
-    border-bottom: 3px solid;
-    font-size: 1.2em;
-    cursor: pointer;
-    margin-top: 15px;
-    display: inline-block;
-    color: #fff;
-    background-color: #ffcfe7;
-    border-color: #ff00dd;
-    width: 10%;
-    clear: both;
-    justify-content: center;
+    color: palevioletred;
 }
 
 li a{
