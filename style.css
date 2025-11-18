@@ -97,9 +97,9 @@ button {
     }
 
     .imgcentro {
-        width: 100%;
+        width: 70%;
     /* Define uma largura fixa (pode ser ajustada) */
-    height: auto;
+    height: 70%;
     /* Define uma altura fixa e igual à largura */
     border-radius: 100%;
     /* Transforma o elemento em um círculo/oval */
@@ -122,7 +122,7 @@ button {
 
     .texto {
     text-align: center;
-    font-size: 10px;
+    font-size: 30px;
     padding: 50px;
     }
 
