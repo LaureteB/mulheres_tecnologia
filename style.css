@@ -55,7 +55,7 @@ body {
     border: 3px solid #ffd4fd;
     /* Borda opcional */
     display: inline-block;
-    margin-right: 170px;
+    margin: 170px;
     /* Alinha os itens (imagens) lado a lado */
     gap: 30px;
     /* Adiciona um espaço entre as imagens */
