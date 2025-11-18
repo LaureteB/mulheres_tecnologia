@@ -94,7 +94,7 @@ button {
     clear: both;
 }
 
-@media (max-width:768px) {
+@media (max-width:430px) {
     body {
         font-size: 10px;
     }
