@@ -3,14 +3,9 @@ body {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+        background-color: white;
 }
 
-
-body {
-    background-color: white;
-}
 
 .cabecalho {
     background-color: rgb(255, 209, 241);
@@ -83,10 +78,8 @@ button {
     border-bottom: 3px solid;
     font-size: 1.2em;
     cursor: pointer;
-    margin: 10;
     margin-top: 15px;
     display: inline-block;
-    margin-right: 280px;
     color: #fff;
     background-color: #ffcfe7;
     border-color: #ff00dd;
