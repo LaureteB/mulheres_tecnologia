@@ -35,6 +35,7 @@ body {
 .imgcentro {
     width: 90%;  /* Define uma largura fixa (pode ser ajustada) */
     height: auto;  /* Define uma altura fixa e igual à largura */
+    border-radius: 50%;  /* Transforma o elemento em um círculo/oval */
     object-fit: cover;  /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
     border: 3px solid #ffaff2;  /* Borda opcional */
     margin: 0 auto;
