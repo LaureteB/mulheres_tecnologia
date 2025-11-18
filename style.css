@@ -63,16 +63,6 @@ body {
     /* Adiciona um espaço entre as imagens */
 }
 
-li {
-    display: inline-block;
-}
-
-li a {
-    font-size: 25px;
-    color: #000000;
-    text-decoration: none;
-}
-
 
 button {
     padding: .5em 2em;
