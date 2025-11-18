@@ -128,15 +128,9 @@ li a{
 
 
     button {
-        padding: .5em 2em;
-        border: 0;
-        border-bottom: 3px solid;
-        font-size: 1.2em;
-        display: inline-block;
         color: #fff;
         background-color: #ffcfe7;
         border-color: #ff00dd;
-        width: 10%;
         justify-content: center;
 
     }
@@ -148,8 +142,6 @@ li a{
     object-fit: cover;    /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
     border: 3px solid #ffd4fd;    /* Borda opcional */
     display: inline-block;
-    margin: 10px;    /* Alinha os itens (imagens) lado a lado */
-    gap: 30px;    /* Adiciona um espaço entre as imagens */
 }
 
 }
