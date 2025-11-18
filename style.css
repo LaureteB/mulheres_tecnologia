@@ -48,7 +48,7 @@ body {
     border-radius: 50%;  /* Transforma o elemento em um círculo/oval */
     object-fit: cover;  /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
     border: 3px solid #ffd4fd;  /* Borda opcional */
-    display: inline-block;
+    display: inline-block; margin-right: 170px; /* Alinha os itens (imagens) lado a lado */
     gap: 30px; /* Adiciona um espaço entre as imagens */
 }
 
@@ -72,6 +72,7 @@ button {
     margin: 10;
     margin-top: 15px;
     display: inline-block; 
+    margin-right: 280px;
     color: #fff;
     background-color: #ffcfe7;
     border-color: #ff00dd;
