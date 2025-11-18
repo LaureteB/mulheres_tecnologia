@@ -5,7 +5,7 @@ body {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-        background-color: white;
+    background-color: white;
 }
 
 
@@ -82,11 +82,11 @@ button {
 }
 
 a {
-        font-size: 25px;
-        color: #000000;
-        text-decoration: none;
-        text-align: center;
-    }
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
 
 @media(max-width:430px) {
     body {
@@ -95,18 +95,18 @@ a {
 
     .imgcentro {
         width: 70%;
-    /* Define uma largura fixa (pode ser ajustada) */
-    height: 40px%;
-    /* Define uma altura fixa e igual à largura */
-    border-radius: 100%;
-    /* Transforma o elemento em um círculo/oval */
-    object-fit: cover;
-    /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
-    display: block;
-    /* Garante que a imagem se comporte como um bloco para centralização básica se necessário */
-    border: 3px solid #ffaff2;
-    /* Borda opcional */
-    margin: 0 auto;
+        /* Define uma largura fixa (pode ser ajustada) */
+        height: 40px%;
+        /* Define uma altura fixa e igual à largura */
+        border-radius: 100%;
+        /* Transforma o elemento em um círculo/oval */
+        object-fit: cover;
+        /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
+        display: block;
+        /* Garante que a imagem se comporte como um bloco para centralização básica se necessário */
+        border: 3px solid #ffaff2;
+        /* Borda opcional */
+        margin: 0 auto;
     }
 
 
@@ -117,9 +117,27 @@ a {
     }
 
     .texto {
-    text-align: center;
-    font-size: 20px;
-    padding: 50px;
+        text-align: center;
+        font-size: 20px;
+        padding: 50px;
+    }
+
+
+    button {
+        padding: .5em 2em;
+        border: 0;
+        border-bottom: 3px solid;
+        font-size: 1.2em;
+        cursor: pointer;
+        margin-top: 15px;
+        display: inline-block;
+        color: #fff;
+        background-color: #ffcfe7;
+        border-color: #ff00dd;
+        width: 10%;
+        clear: both;
+        justify-content: center;
+
     }
 
 }
