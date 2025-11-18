@@ -1,15 +1,15 @@
 body {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
 body {
-    background-color:white ;
+    background-color: white;
 }
 
 .cabecalho {
@@ -33,22 +33,37 @@ body {
 }
 
 .imgcentro {
-    width: 90%;  /* Define uma largura fixa (pode ser ajustada) */
-    height: auto;  /* Define uma altura fixa e igual à largura */
-    border-radius: 50%;  /* Transforma o elemento em um círculo/oval */
-    object-fit: cover;  /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
-    border: 3px solid #ffaff2;  /* Borda opcional */
+    width: 400px;
+    /* Define uma largura fixa (pode ser ajustada) */
+    height: 400px;
+    /* Define uma altura fixa e igual à largura */
+    border-radius: 50%;
+    /* Transforma o elemento em um círculo/oval */
+    object-fit: cover;
+    /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
+    display: block;
+    /* Garante que a imagem se comporte como um bloco para centralização básica se necessário */
+    border: 3px solid #ffaff2;
+    /* Borda opcional */
     margin: 0 auto;
 }
 
 .imgprincipal {
-    width: 300px;  /* Define uma largura fixa (pode ser ajustada) */
-    height: 300px;  /* Define uma altura fixa e igual à largura */
-    border-radius: 50%;  /* Transforma o elemento em um círculo/oval */
-    object-fit: cover;  /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
-    border: 3px solid #ffd4fd;  /* Borda opcional */
-    display: inline-block; margin-right: 170px; /* Alinha os itens (imagens) lado a lado */
-    gap: 30px; /* Adiciona um espaço entre as imagens */
+    width: 300px;
+    /* Define uma largura fixa (pode ser ajustada) */
+    height: 300px;
+    /* Define uma altura fixa e igual à largura */
+    border-radius: 50%;
+    /* Transforma o elemento em um círculo/oval */
+    object-fit: cover;
+    /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
+    border: 3px solid #ffd4fd;
+    /* Borda opcional */
+    display: inline-block;
+    margin-right: 170px;
+    /* Alinha os itens (imagens) lado a lado */
+    gap: 30px;
+    /* Adiciona um espaço entre as imagens */
 }
 
 li {
@@ -70,7 +85,7 @@ button {
     cursor: pointer;
     margin: 10;
     margin-top: 15px;
-    display: inline-block; 
+    display: inline-block;
     margin-right: 280px;
     color: #fff;
     background-color: #ffcfe7;
@@ -79,18 +94,34 @@ button {
     clear: both;
 }
 
-@media(max-width:768px){
-    body{
+@media(max-width:768px) {
+    body {
         font-size: 15px;
     }
-    .imgcentro{
 
+    .imgcentro {
+        width: 100%;
+    /* Define uma largura fixa (pode ser ajustada) */
+    height: auto;
+    /* Define uma altura fixa e igual à largura */
+    border-radius: 100%;
+    /* Transforma o elemento em um círculo/oval */
+    object-fit: cover;
+    /* Garante que a imagem preencha o círculo sem distorção, cortando as bordas extras, se necessário */
+    display: block;
+    /* Garante que a imagem se comporte como um bloco para centralização básica se necessário */
+    border: 3px solid #ffaff2;
+    /* Borda opcional */
+    margin: 0 auto;
     }
-}
 
-a {
-    font-size: 25px;
-    color: #000000;
-    text-decoration: none;
-    text-align: center;
+
+    a {
+        font-size: 25px;
+        color: #000000;
+        text-decoration: none;
+        text-align: center;
+    }
+
+
 }
