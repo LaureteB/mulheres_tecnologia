@@ -40,7 +40,7 @@ body {
     /* Garante que a imagem se comporte como um bloco para centralização básica se necessário */
     border: 3px solid #ffaff2;
     /* Borda opcional */
-    margin: 0 auto;
+    margin: 100px;
 }
 
 .imgprincipal {
