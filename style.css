@@ -159,4 +159,11 @@ li a{
     display: inline-block;
 }
 
+button a {
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+
 }
